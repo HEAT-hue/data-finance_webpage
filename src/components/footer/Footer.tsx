@@ -7,7 +7,7 @@ function Footer() {
         <div className="bg-black text-white py-16 px-4 max-w-[1240px] mx-auto">
             <div className="w-full grid grid-cols-1 gap-y-12 gap-x-4 lg:grid-cols-2">
                 <div className="flex flex-col gap-6">
-                    <h1 className="w-full text-3xl text-[#00df9a] font-bold">REACT.</h1>
+                    <h1 className="w-full text-3xl text-[#00df9a] font-bold">DATA.</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
                     <div className="flex gap-6 cursor-pointer">
                         <span><GrFacebook size={30} /></span>
