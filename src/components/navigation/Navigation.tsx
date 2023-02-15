@@ -3,7 +3,6 @@ import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 function Navigation() {
-
     const [nav, setNav] = useState<boolean>(false);
 
     function handleNav() {
