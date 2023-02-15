@@ -5,3 +5,4 @@ export { Newsletter } from "./newsletter";
 export { Cards} from "./cards";
 export { Card } from "./card";
 export { Footer } from "./footer";
+export { Button } from "./button";

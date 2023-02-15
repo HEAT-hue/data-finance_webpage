@@ -1,5 +1,6 @@
 // jshint esversion:6
 import laptop from "../../assets/laptop.jpg";
+import { Button } from "../button";
 
 function Analytics() {
     return (
@@ -10,7 +11,8 @@ function Analytics() {
                     <p className="uppercase text-[#00df9a] font-bold">DATA ANALYTICS DASHBOARD</p>
                     <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl">Manage Data Analytics Centrally</h2>
                     <p className="text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum molestiae delectus culpa hic assumenda, voluptate reprehenderit dolore autem cum ullam sed odit perspiciatis. Doloribus quos velit, eveniet ex deserunt fuga?</p>
-                    <button className='w-[220px] mx-auto text-[#00df9a] py-2.5 px-12 bg-[#000300] font-bold cursor-pointer mt-4 rounded-md md:mx-0'>Get Started</button>
+                    {/* <button className='w-[220px] mx-auto text-[#00df9a] py-2.5 px-12 bg-[#000300] font-bold cursor-pointer mt-4 rounded-md md:mx-0'>Get Started</button> */}
+                    <Button size={'220px'} dark >Get Started</Button>
                 </div>
 
             </div>

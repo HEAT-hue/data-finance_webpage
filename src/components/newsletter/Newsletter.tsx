@@ -1,4 +1,5 @@
 // jshint esversion:6
+import { Button } from "../button";
 
 function Newsletter() {
     return (
@@ -11,7 +12,8 @@ function Newsletter() {
                 <div className="lg:col-span-3">
                     <div className="flex flex-col items-start gap-3 w-full sm:flex-row">
                         <input className="p-3 w-full rounded-md text-black" type="text" id="input" placeholder="Enter Email" />
-                        <button className='w-[200px] bg-[#00df9a] py-3 px-6 text-[#000300] font-bold cursor-pointer rounded-md md:mx-0'>Notify Me</button>
+                        {/* <button className='w-[200px] bg-[#00df9a] py-3 px-6 text-[#000300] font-bold cursor-pointer rounded-md md:mx-0'>Notify Me</button> */}
+                        <Button size={'200px'} spacing={'py-3 px-6'}>Notify Me</Button>
                     </div>
                     <p className="mt-2 text-sm">We care bout the protection of your data. Read our <span className="text-[#00df9a]"> Privacy Policy.</span></p>
                 </div>

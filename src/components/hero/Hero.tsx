@@ -1,5 +1,6 @@
 // jshint esversion:6
 import Typed from 'react-typed';
+import { Button } from '../button';
 
 function Hero() {
     return (
@@ -20,7 +21,8 @@ function Hero() {
 
                 </div>
                 <p className='text-xl font-bold text-gray-500 md:text-2xl' >Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.</p>
-                <button className='bg-[#00df9a] py-2.5 px-12 text-[#333333] font-bold cursor-pointer mt-4 rounded-md'>Get Started</button>
+                {/* <button className='bg-[#00df9a] py-2.5 px-12 text-[#333333] font-bold cursor-pointer mt-4 rounded-md'>Get Started</button> */}
+                <Button>Get Started</Button>
             </div>
 
         </div>

@@ -1,5 +1,7 @@
 // jshint esversion:6
 
+import { Button } from "../button"
+
 interface CardProp {
     img: string,
     darkTheme?: boolean,
@@ -22,7 +24,8 @@ function Card({ img, darkTheme, userType, price, storageCapacity, grantedUsers, 
                 <div className="border-b border-b-[#dad5d5] py-2">{grantedUsers} Granted User</div>
                 <div className="border-b border-b-[#dad5d5] py-2">Send up to {sendAmount} GB</div>
             </div>
-            <button className={`w-[200px] ${darkTheme ? 'bg-black text-[#00df9a]' : 'bg-[#00df9a] text-[#000300]'} mt-8 py-3 px-6 font-bold cursor-pointer rounded-md md:mx-0 border shadow-sm`}>Notify Me</button>
+            {/* <button className={`w-[200px] ${darkTheme ? 'bg-black text-[#00df9a]' : 'bg-[#00df9a] text-[#000300]'} mt-8 py-3 px-6 font-bold cursor-pointer rounded-md md:mx-0 border shadow-sm`}>Notify Me</button> */}
+            <Button size="200px" spacing='mt-8 py-3 px-6' dark={darkTheme} >Start Trial</Button>
         </div>
     );
 }
